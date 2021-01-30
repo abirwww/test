@@ -37,6 +37,8 @@ http.listen(3000, function () {
     console.log("database connected.");
 
     app.get("/signup", function (request, result) {
+      // dhoro eikhan e change korlam
+      console.log(result);
       result.render("signup");
     });
 
